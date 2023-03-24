@@ -10,7 +10,9 @@ header{
     background-color: #000;
     color:#fff;
     margin: 0;
-    padding: 0.5% 1%;
+    padding: 1% 1.5%;
+    width: 100%;
+    position:fixed;
 }
 
 header p{
@@ -29,8 +31,8 @@ header nav{
 }
 
 .abt{
-    margin-top: -2.5%;
-    padding: 0.7rem 1rem;
+    
+    padding: 2.5rem 1rem 1rem 1rem;
     background-color: #4c57d5;
     color: white;
 }
@@ -38,8 +40,9 @@ header nav{
 .contact ul{
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0 10%;
+    gap: 25%;
+    grid-template-columns: repeat(2, 30%);
+    
 }
 .contact h3{
     text-align: center;
@@ -63,6 +66,26 @@ h2{
 
 figcaption{
     text-align: center;
+}
+
+li{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+li img{
+    width: 25%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav img{
+    width: 25%;
+    height: 85%;
+    margin-top: -2%;
 }
 
 @media (min-width: 48rem) {
