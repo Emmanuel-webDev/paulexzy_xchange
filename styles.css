@@ -101,7 +101,7 @@ nav img{
         background-color: #000;
         color:#fff;
         margin: 0;
-        padding: 0.5% 1%;
+        padding: 0.5% -10%;
     }
     
     header p{
@@ -111,7 +111,7 @@ nav img{
 
     .abt{
         margin-top: -0.2%;
-        padding: 1.5rem 2rem;
+        padding: 5% 1.5rem 5%;
         background-color: #4c57d5;
         color: white;
     }
@@ -140,5 +140,21 @@ nav img{
 
     .contact{
         margin-top: 3%;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        width: 15%;
+    }
+
+    nav a {
+        padding-right: 14.6%;
+    }
+
+    nav img{
+        width: 20%;
+        height: 75%;
+        margin-top: -2%;
     }
 }
